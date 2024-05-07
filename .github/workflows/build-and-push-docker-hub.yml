@@ -32,7 +32,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ngocanh1412142/cicd2024:staging
+          tags: ngocanh14121412/cicd2024:staging
 
   pull-and-up:
     name: Pull new image and re run with the new version
